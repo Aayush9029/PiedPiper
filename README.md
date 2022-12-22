@@ -7,6 +7,8 @@ _Middle to Out_
 - I have a home server and several Internet-connected nodemcu devices at different locations.
 - I want to be able to access data collected by these devices from anywhere in the world using my Phone or Watch.
 
+![CleanShot 2022-12-21 at 20 38 37](https://user-images.githubusercontent.com/43297314/209244569-533e0080-0cc3-4464-b777-3badf2952280.png)
+
 ### 🤓 Techincal Problem
 
 0. _Access the internal data.._
