@@ -40,3 +40,8 @@ $ I DID DONE IT... 20MB worth JSON b64 encoded data...
 - Rate Limiting
 - Monitor API + Server status
 - REST API for adding, updating and getting the data
+
+
+✅ Deployed and tested 
+
+<img src="https://user-images.githubusercontent.com/43297314/209243866-d65139a9-43f3-499f-92ec-4e25269e0463.png" width="512">
