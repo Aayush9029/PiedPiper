@@ -5,7 +5,7 @@ _Middle to Out_
 ### 😠 Problem
 
 - I have a home server and several Internet-connected nodemcu devices at different locations.
-- I want to be able to access data collected by these devices from anywhere in the world.
+- I want to be able to access data collected by these devices from anywhere in the world using my Phone or Watch.
 
 ### 🤓 Techincal Problem
 
