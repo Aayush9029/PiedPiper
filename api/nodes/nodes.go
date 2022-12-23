@@ -56,5 +56,10 @@ func Get(c *fiber.Ctx) error {
 			"message": "Node not found",
 		})
 	}
-	return c.JSON(node.Data)
-}
+
+        return c.JSON(
+		fiber.Map{
+			"data": node.Data,
+		},
+	)
+    }
