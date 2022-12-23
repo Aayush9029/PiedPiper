@@ -26,6 +26,7 @@ _Acting as a **Middle** so that your **Out** can communicate with your **In**_
 4. I can't use ssh tunneling or reverse proxy on other devices.
 5. Without having to setup a static IP.
 6. Without turning my client device into a server and somehow connecting my Devices to client directly (also, see 2, 4)
+7. Without trying to bypass firewall.
 
 ### 💡 Solution
 
