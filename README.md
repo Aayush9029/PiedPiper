@@ -7,9 +7,6 @@ _Middle to Out_
 - I have a home server and several Internet-connected nodemcu devices at different locations.
 - I want to be able to access data collected by these devices from anywhere in the world using my Phone or Watch.
 
-
-![Freeform Thanku](https://user-images.githubusercontent.com/43297314/209245479-519c11be-60bd-4c3b-8398-ec42baefed05.png)
-
 ### 🤓 Techincal Problem
 
 0. _Access the internal data.._
@@ -34,6 +31,9 @@ $ curl -X POST yourserver.url/super-secret-key -d 'I DID DONE IT... 20MB worth J
 $ curl -X GET yourserver.url/super-secret-key
 $ I DID DONE IT... 20MB worth JSON b64 encoded data...
 ```
+
+![Freeform Thanku](https://user-images.githubusercontent.com/43297314/209245713-39635b00-8930-4f90-b4d4-cc3a756a03e3.png)
+
 
 ---
 
