@@ -58,3 +58,6 @@ $ I DID DONE IT... 20MB worth JSON b64 encoded data...
 ✅ Deployed and tested 
 
 ![CleanShot 2022-12-22 at 19 52 12](https://user-images.githubusercontent.com/43297314/209249586-f5cbf301-baca-4c99-9038-0e7a00bfc7e0.png)
+
+### Used by
+[Watch Torrent](https://github.com/Aayush9029/WatchTorrent)
