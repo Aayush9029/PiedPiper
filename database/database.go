@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"time"
 
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
@@ -14,11 +13,6 @@ import (
 var (
 	DB *gorm.DB
 )
-
-type DefaultModel struct {
-	CreatedAt time.Time `json:"createdAt"`
-	UpdatedAt time.Time `json:"updatedAt"`
-}
 
 func SetupDatabase() {
 	username := os.Getenv("POSTGRES_USER")

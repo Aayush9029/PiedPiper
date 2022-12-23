@@ -11,7 +11,6 @@ import (
 )
 
 type Node struct {
-	database.DefaultModel
 	Key  string `gorm:"PRIMARY_KEY"`
 	Data []byte `json:"data"`
 }
@@ -24,16 +23,13 @@ func AddUpdate(c *fiber.Ctx) error {
 
 	// if node not found, create new node
 	if errors.Is(err, gorm.ErrRecordNotFound) {
-		println("node not found, creatimg a mew mode")
 		node = Node{
 			Key:  key,
 			Data: c.Body(),
 		}
-
-		println(node.Key)
-
 		db.Create(&node)
-		return c.JSON(node)
+		return c.SendStatus(fiber.StatusCreated)
+
 	} else {
 		// if node found, update node
 		updatedNode := Node{
@@ -45,8 +41,8 @@ func AddUpdate(c *fiber.Ctx) error {
 			return pkg.Unexpected(err.Error())
 		}
 
-		return c.JSON(updatedNode)
-
+		// only return status code
+		return c.SendStatus(fiber.StatusNoContent)
 	}
 }
 
