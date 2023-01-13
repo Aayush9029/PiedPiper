@@ -1,10 +1,9 @@
 
 
 <div align="center">
-
+  <img width="128" alt="PP" src="https://user-images.githubusercontent.com/43297314/212246395-badef135-ad50-47ef-9baa-cfa5ed7dae7b.png">
   # PiedPiper     
-  
-  ![CleanShot 2022-12-22 at 19 16 1](https://user-images.githubusercontent.com/43297314/209246647-00a1a89d-9ba8-4abc-9de2-86a3a2a42dfa.png)
+
 
 _Acting as a **Middle** so that your **Out** can communicate with your **In**_
 
